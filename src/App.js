@@ -1,7 +1,10 @@
+import SignUp from './components/SignUp';
+
 function App() {
   return (
-    <div className="App">
+    <div>
       <h1>Welcome to Dilly</h1>
+      <SignUp />
     </div>
   );
 }
