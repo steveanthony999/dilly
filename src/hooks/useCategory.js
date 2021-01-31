@@ -64,7 +64,7 @@ export function useCategory(categoryId = null, category = null) {
           type: ACTIONS.UPDATE_CATEGORY,
           payload: { category: database.formatDoc(doc) },
         });
-        console.log(database.formatDoc(doc));
+        // console.log(database.formatDoc(doc));
       })
       .catch(() => {
         dispatch({
